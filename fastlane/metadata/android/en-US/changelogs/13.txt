@@ -1,0 +1,8 @@
+Grace Launcher 1.2.1
+• Icon Designer: global edits update options not overridden per icon, e.g. a custom symbol can inherit global colors.
+• Opt-in automatic Icon Designer styling for shortcuts.
+• Home apps can show notifications from apps in their Pop-ups.
+• Improved compatibility when adding widgets and launching apps.
+• Lock the home layout to prevent accidental moves.
+• Added app usage time display.
+• Refined interactions and animations; tune them in Lab.

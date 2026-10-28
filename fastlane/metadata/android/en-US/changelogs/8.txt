@@ -1,0 +1,6 @@
+Grace Launcher 1.1.6
+• Fixed a conflict between double-tap actions and expanding app shortcuts.
+• Adjusted default animation durations and gesture responsiveness, with experimental controls in Settings > Advanced > Lab.
+• Added support for PWAs and widgets created by apps.
+• Added a font manager and fixed the inability to delete added fonts.
+• Added a Favorites & App List editor with more customization, including left-side A-Z swipe navigation.

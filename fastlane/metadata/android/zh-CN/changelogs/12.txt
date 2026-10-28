@@ -1,0 +1,10 @@
+Grace Launcher 1.2.0
+• 新增主页右侧的 Widget Screen：可在空白区域滑动或通过 Grace Button 手势进入，按传统网格放置小组件
+• 新增 App Stack，支持横向堆放应用
+• 改进首页排序，支持更多小组件及 Private Space、Work Profile 文件夹
+• 优化小组件使用体验，支持调节大小
+• A-Z 列表触发范围更大
+• A-Z 列表新增双击动作，例如锁定屏幕
+• 调整 Pop-up 触发灵敏度，并可在 Lab 中进一步调节
+• 新增少量首页和应用列表动画
+• 提升性能
