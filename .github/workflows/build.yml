@@ -14,7 +14,7 @@ permissions:
 
 jobs:
   build:
-    name: Build and test Android app
+    name: Build Android APK
     runs-on: ubuntu-latest
 
     steps:
@@ -29,8 +29,11 @@ jobs:
 
       - name: Set up Android SDK
         uses: android-actions/setup-android@v3
-        # Do not specify "tools" in packages. That obsolete SDK package
-        # is what caused the sdkmanager failure in the uploaded log.
+        with:
+          cmdline-tools-version: 12266719
+          accept-android-sdk-licenses: true
+          log-accepted-android-sdk-licenses: true
+          packages: platform-tools
 
       - name: Set up Gradle
         uses: gradle/actions/setup-gradle@v4
