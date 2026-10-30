@@ -1,0 +1,23 @@
+GraceLauncher source update status
+
+Applied in this source update:
+- Newly added hosted home widgets are inserted into the existing horizontal widget strip instead of being appended after all home items.
+- The built-in Grace widget panel now exposes explicit remove actions for the clock, calendar, media player, and movable divider when each is enabled.
+- Hosted Android widget resizing now includes visible corner grips for simultaneous width/height resizing, in addition to edge grips.
+- Removed translated Android string-resource directories; default English resources remain.
+- Release APK builds now enable R8 code shrinking and resource shrinking.
+- GitHub Actions builds both debug and optimized release APKs and uploads both as artifacts.
+
+Preserved:
+- Movable home spacer, app drawer top pull-down gesture, favourites star, horizontal hosted-widget strip, backup creation, and existing widget configuration flows.
+
+Still requires device verification:
+- Restore from backup.
+- Widget placement and resizing behavior across different providers and screen sizes.
+- Floating-panel and widget-screen blur. The current implementation uses Android's native cross-window/background blur API, which depends on Android 12+ and system blur availability; this cannot be confirmed from source inspection alone.
+- Actual optimized release APK size and runtime behavior.
+
+Build verification:
+- XML resources parse successfully.
+- Full Gradle build could not run in this environment because Gradle 9.5.0 is not cached and network access to services.gradle.org is unavailable.
+- Do not treat this archive as a build-tested APK.

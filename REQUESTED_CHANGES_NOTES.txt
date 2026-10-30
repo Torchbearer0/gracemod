@@ -1,0 +1,14 @@
+GraceLauncher requested feature bundle - source update
+
+This archive preserves the already-working features reported by the user and applies the follow-up source changes listed in REQUESTED_CHANGES_STATUS.txt.
+
+The home content model now groups newly added hosted widgets at the existing widget-strip position. The built-in Grace widget menu includes explicit removal actions for enabled Grace widgets. Hosted widget resize editing has four additional corner grips to resize width and height together.
+
+The Android UI translation resource folders were removed so the app ships with the default English strings only. Script fallback fonts remain because installed apps can have non-English names and Android's system fallback behavior is device-dependent; removing those fonts blindly could cause missing glyphs.
+
+The release build enables R8 and resource shrinking. GitHub Actions builds both debug and release variants; use the release APK for a fair size comparison against the original 9.5 MB release APK. The debug APK is expected to be larger and is retained for troubleshooting.
+
+Important limitations:
+- The source has not been compiled in this environment. The Gradle wrapper requires Gradle 9.5.0, which could not be downloaded because network access is unavailable.
+- Blur is implemented using Android native window blur APIs and depends on Android 12+ plus system cross-window blur being enabled. The source alone cannot guarantee it will appear on every device.
+- Backup creation is implemented; restore still needs a real-device test.

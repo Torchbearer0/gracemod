@@ -1,0 +1,6 @@
+Grace Launcher 1.1.9
+• 更换应用图标，希望大家喜欢新设计
+• Grace Button 支持移动位置，并可分别设置在收藏页面和应用列表中是否显示
+• Icon Designer 迎来重大更新：支持将图标显示为圆点或隐藏，并使用图标自身颜色重新上色
+• 主题颜色支持更多调色板样式
+• Hide Apps 和 Edit Favorites 更方便了

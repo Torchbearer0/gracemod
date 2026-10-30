@@ -1,0 +1,5 @@
+<resources>
+    <string name="search_fixture_app">Яндекс</string>
+    <string name="search_fixture_activity">Чат</string>
+    <string name="search_fixture_untranslated">Только русский</string>
+</resources>
