@@ -1,0 +1,29 @@
+*.iml
+.gradle
+.kotlin/
+local.properties
+
+# Keep shared IDE formatting and inspections, not generated or machine-local state.
+/.idea/*
+!/.idea/codeStyles/
+!/.idea/inspectionProfiles/
+.DS_Store
+/build
+/captures
+.externalNativeBuild
+.cxx
+
+# Local maintainer notes and submission drafts
+/.local/
+
+# Local release artifacts and signing secrets
+/app/release/
+*.apk
+*.aab
+*.idsig
+*.jks
+*.keystore
+*.p12
+*.pfx
+keystore.properties
+signing.properties

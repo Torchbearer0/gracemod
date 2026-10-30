@@ -1,0 +1,10 @@
+Grace Launcher 1.1.7
+• 搜索框支持下拉关闭
+• 再次修复双击屏幕与 Pop-ups 的冲突
+• 支持导航栏沉浸
+• 增强 Icon Designer 对不标准图标的适配能力
+• 优化文件夹设置，支持左滑打开内部第一项
+• Grace Button 现在可以打开文件夹
+• Dim Wallpaper 支持自定义遮罩颜色
+• A-Z 列表支持更多自定义设置
+• 新增西班牙语和加利西亚语翻译，感谢 @liliuminterspinas22

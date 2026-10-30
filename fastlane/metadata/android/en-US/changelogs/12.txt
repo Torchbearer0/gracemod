@@ -1,0 +1,10 @@
+Grace Launcher 1.2.0
+• Widget Screen right of home: grid widgets; enter via empty-space swipes or Grace Button gestures.
+• App Stack: arrange apps horizontally.
+• Better home sorting; more widgets and Private Space/Work Profile folders.
+• Resizable widgets with improved usability.
+• Larger A-Z swipe trigger area.
+• A-Z double-tap actions, e.g. lock screen.
+• Adjusted Pop-up sensitivity; fine-tune it in Lab.
+• Added home/app list animations.
+• Improved performance.

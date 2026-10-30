@@ -1,0 +1,16 @@
+GraceLauncher requested changes - work performed in this archive
+
+Implemented in this pass:
+1. Long-pressing the Grace clock or calendar area now opens the existing Grace widget menu.
+2. The app drawer's "Add to favourites" action now uses the star icon already present in the launcher icon set.
+
+Not implemented in this archive (these require broader changes and must not be treated as complete):
+- Movable/reorderable baseline spacer with adjustable size.
+- Per-widget long-press controls (resize/remove/add another) and configurable tap actions for every Grace widget, including media.
+- A reliable additional pull-down gesture at the app drawer top (the existing gesture code was left unchanged).
+- Gaussian blur across all panels.
+- Horizontal scrolling for the main home-screen widget section.
+- Backup/restore of launcher state and wallpaper, including Android wallpaper permission handling.
+
+Build status:
+- Not build-verified. Running `bash gradlew :app:assembleDebug --no-daemon` could not download Gradle 9.5.0 because this environment has no network access (`UnknownHostException: services.gradle.org`).

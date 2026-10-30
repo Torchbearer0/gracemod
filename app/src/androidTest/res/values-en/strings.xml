@@ -1,0 +1,4 @@
+<resources>
+    <string name="search_fixture_app">Yandex</string>
+    <string name="search_fixture_activity">Chat</string>
+</resources>

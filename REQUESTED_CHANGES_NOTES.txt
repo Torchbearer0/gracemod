@@ -1,0 +1,15 @@
+GraceLauncher requested feature bundle
+
+Implemented in this source bundle:
+- Home spacer/divider is now included in the mixed home-item drag/reorder gesture and can be placed between home items. Its height is adjustable in the homepage editor and the Grace home panel.
+- Grace clock, calendar, and media widget long-press routes open the Grace home widget panel. The panel now exposes show/hide controls, tap-action settings, divider controls, home-item rearrangement, and add-widget access.
+- The main HOME page's hosted app widgets are grouped into a horizontally scrollable strip.
+- App-drawer top-edge pull-down detection observes the Initial pointer pass so the LazyColumn scroll recognizer does not swallow the gesture.
+- Floating panels and the widget screen request the wallpaper Gaussian blur effect. Android's native background blur API requires Android 12 (API 31) or newer.
+- The add-to-favourites action already used the Material Star symbol in the supplied source; that existing star is retained.
+- Calendar now has a selectable app tap action, alongside the existing clock and media player app choices.
+- Added Backup & Restore settings page. It creates a ZIP containing the Room launcher database, legacy shared preferences, and current wallpaper image; restore validates the database header and asks before replacing existing launcher data. Android widget provider IDs may require widgets to be re-added after restore.
+
+Build verification:
+- Not build-tested in this environment. The Gradle wrapper attempted to download Gradle 9.5.0, but network access was unavailable. The Android/Compose dependency classpath therefore could not be resolved here.
+- Manifest XML was parsed successfully. This is not a substitute for a full Android build or device testing.

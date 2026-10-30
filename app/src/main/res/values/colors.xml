@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Full-colour app icon; monochrome artwork is tinted by the system or UI. -->
+    <color name="launcher_icon_background">#6865A8</color>
+    <color name="launcher_icon_foreground">#FFEDC2</color>
+</resources>
